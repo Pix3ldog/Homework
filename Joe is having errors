@@ -1,0 +1,16 @@
+public class Main {
+  public static void main(String[] args) {
+    int joe= 5 ;
+    do {
+    System.out.println (joe);
+    joe++ ;
+    joe++ ;
+    joe++ ;
+    }
+    while (joe <= 404) ;
+/*lowk this was hard cus im stoopid and tried to go to 100 when it was >= not = T^T */
+  }
+}
+
+
+
