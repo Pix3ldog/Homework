@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class Main {
+public static void main (String[] args) {
+String Fruitone = "Appple"; /*I suck at spelling */
+String Fruitwo = "Blorange"; 
+String Fruithree ="Watterson"; /*I meant watermelon I put watterson cus i was watching gumball and tbh i dont feel like changing it */
+String Fruitfour = "Bannanna";
+String Fruitfive = "Strowberry";
+int appple = 1 ;
+float blorange = 1.5f ;
+int watterson = 4 ;
+int bannanna = 3 ;
+int strowberry = 2 ;
+Scanner myObj = new Scanner(System.in);
+System.out.println ("Choose a fruit " + Fruitone +  " "+ Fruitwo + " " + Fruithree + " " + Fruitfour + " " + Fruitfive);
+String fruit=myObj.nextLine();
+switch (fruit){
+case "Appple":
+System.out.println ("The price of" + Fruitone + "is " + appple);
+break;
+case "Blorange" :
+System.out.println ("The price of" + Fruitwo + "is " + blorange);
+break;
+case "Watterson" :
+System.out.println ("The price of" + Fruithree + "is " + watterson); 
+break;
+case "Bannanna" :
+System.out.println ("The price of" + Fruitfour + "is " + bannanna);
+break;
+case "Strowberry":
+System.out.println ("The price of" + Fruitfive + "is " + strowberry);
+break;
+default:
+System.out.println ("Thats not on the menu choose something else");
+break;
+}
+  }
+}
+
