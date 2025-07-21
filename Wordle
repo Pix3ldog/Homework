@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class 
+Main {
+public static void main(String[] args)
+{ 
+Scanner myObj = new Scanner(System.in);
+System.out.println ("Choose a word "); /*words are mean */
+String word=myObj.nextLine(); 
+word = word.substring(1) ; 
+while (word.length()>0) 
+word = word.substring(1);
+System.out.println(word) ;
+/*this genuinly took me to long and i still am confused about substrings T^T */
+}
+}
+
+
