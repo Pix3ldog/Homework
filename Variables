@@ -2,11 +2,11 @@ public class Main {
   public static void main(String[] args) {
 /* IDK what a camelCase is so im sorry but this is technaly right i think */
 String bank = "bank account int";
-    String numbers = "natural numbers int" ;
+    String numbers = "natural numbers int" ; 
     String aletter = "only one letter char" ;
     String robot = "the robot name string" ;
     String volume = "Volume of sphere float" ;
-    String neuron = "number of neurons int" ;
+    String neuron = "number of neurons int" ; /*How many neurons are there */
     System.out.println (bank) ;
      System.out.println (numbers) ;
       System.out.println (aletter) ;
