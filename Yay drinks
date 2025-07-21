@@ -1,0 +1,70 @@
+import java.util.Scanner;
+class Main {
+public static void main (String[] args) {
+String Fruitone = "Appple";
+String Fruitwo = "Blorange";
+String Fruithree ="Watterson";
+String Fruitfour = "Bannanna";
+String Fruitfive = "Strowberry";
+String Drinkone = "LeemonAID";
+String Drinktwo = "Soya";
+String Drinkthree = "Buttabear";
+String nothing= "Nothing" ;
+int appple = 1 ; /* so pricey >:< */
+float blorange = 1.5f ;
+int watterson = 4 ;
+int bannanna = 3 ;
+int strowberry = 2 ;
+int leemonAID = 350 ; /* best thing on menu */
+int soya = 250 ;
+int buttabear = 300 ;
+int  notathing = 0 ;
+Scanner myObj = new Scanner(System.in);
+System.out.println ("Choose a fruit " + Fruitone +  " "+ Fruitwo + " " + Fruithree + " " + Fruitfour + " " + Fruitfive + "or" + nothing );
+String fruit=myObj.nextLine(); 
+System.out.println ("Choose a drink  " + Drinkone + " " + Drinktwo + " " + Drinkthree + "or " + nothing );
+String drink=myObj.nextLine();
+switch (drink){
+case "LeemonAID":
+System.out.println ("The price of " + Drinkone +"is " + leemonAID);
+break;
+case "Soya":
+System.out.println ("The price of " + Drinktwo +"is " + soya);
+break;
+case "Buttabear":
+System.out.println ("The price of " + Drinkthree +"is " + buttabear);
+break;
+case "Nothing":
+System.out.println ("You chose Nothing");
+break;
+default:
+System.out.println ("Sorry we don't have that drink");
+break;
+}
+switch (fruit){
+case "Appple":
+System.out.println ("The price of" + Fruitone + "is " + appple);
+break;
+case "Blorange" :
+System.out.println ("The price of" + Fruitwo + "is " + blorange);
+break;
+case "Watterson" :
+System.out.println ("The price of" + Fruithree + "is " + watterson);
+break;
+case "Bannanna" :
+System.out.println ("The price of" + Fruitfour + "is " + bannanna);
+break;
+case "Strowberry":
+System.out.println ("The price of" + Fruitfive + "is " + strowberry);
+break;
+case "Nothing":
+System.out.println ("You chose nothing");
+break;
+default:
+System.out.println ("Thats not on the menu choose something else");
+break;
+}
+  }
+}
+
+
