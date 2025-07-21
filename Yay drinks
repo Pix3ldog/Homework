@@ -35,10 +35,10 @@ case "Buttabear":
 System.out.println ("The price of " + Drinkthree +"is " + buttabear);
 break;
 case "Nothing":
-System.out.println ("You chose Nothing");
+System.out.println ("You chose Nothing"); /* whyd u even come >:< */
 break;
 default:
-System.out.println ("Sorry we don't have that drink");
+System.out.println ("Sorry we don't have that drink"); /* bro read the menu */
 break;
 }
 switch (fruit){
